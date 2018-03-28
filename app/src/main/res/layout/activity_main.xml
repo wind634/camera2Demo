@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiangsu.camera2demo.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_frame_color">
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/trans_main_frame_color"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/colorBlack"
+            android:textColor="@color/colorWhite"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:textSize="16dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

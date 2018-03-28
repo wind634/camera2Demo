@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">camera2Demo</string>
+
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+</resources>
